@@ -1,0 +1,17 @@
+{
+  "name": "clawsight",
+  "version": "1.0.0",
+  "description": "ClawSight is a decentralized observability platform for AI agents. It tracks skill usage, performance, and reliability across the OpenClaw ecosystem, providing \"OpenRouter-style\" analytics for agent tools.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node bin/install.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.4",
+    "dotenv": "^17.2.4"
+  }
+}
